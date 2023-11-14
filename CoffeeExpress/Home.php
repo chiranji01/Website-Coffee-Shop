@@ -1,0 +1,231 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coffee Express</title>
+	
+<link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+<link rel="stylesheet" href= "style.css" >
+</head>
+<body>
+	<!--header section starts-->
+	<header class="header">
+	<section class="flex">
+			<a href="#home" class="logo" ><img src="images/logo.png" alt=""></a>	
+	<nav class="navbar">
+		<a href="#home">home</a>
+		<a href="login.php">login</a>
+		<a href="#about">about</a>
+		<a href="#menu">menu</a>
+		<a href="#gallery">gallery</a>
+		<a href="#contact">contact</a>
+	</nav>	
+	<div id="menu-btn" class="fas fa-bars"></div>		
+	</section>
+	</header>
+	<!--header section ends-->
+	
+	<!--home section starts-->
+	
+	<div class="home-bg">
+		
+		<section class="home" id="home">
+		
+			<div class="content">
+				<h3>coffee express</h3>
+				<p>It’s amazing how the world begins to change through the eyes of a cup of coffee. </p>
+				<a href="#about" class="btn">about us</a>
+			</div>
+		
+		</section>
+	</div>
+	
+	
+	<!--home section ends-->
+	
+	
+	<!--about section starts-->
+	
+ 	<section class="about" id="about">
+		
+		<div class="image">
+			<img src= "images/about-img.png" alt="">
+	</div>
+		
+		<div class="content">
+			<h3>Coffee Makes Everything Possible</h3>
+			<p>What goes best with a cup of coffee? Another cup.</p>
+			<a href="#menu" class="btn">our menu</a>
+		</div>
+	</section>
+
+	<!--about section ends-->
+	
+	<!--facility section starts-->
+	
+	<section class="facility">
+		
+		<div class="heading">
+			<img src="images/heading-img.jpg" alt="">
+			<h3>our facility </h3>
+		</div>
+		
+		<div class="box-container">
+			<div class="box">
+			 <img src="images/icon-1.jpg" alt="">
+				<h3>varieties of coffees</h3>
+				<p></p>
+			</div>
+		 
+			
+			<div class="box">
+			 <img src="images/icon-2.jpg" alt="">
+				<h3>coffee beans</h3>
+				<p></p>
+			</div>
+				
+			<div class="box">
+			 <img src= "images/icon-3.png" alt="">
+				<h3>ready to go coffee</h3>
+				<p></p>
+			</div>
+			
+			<div class="box">
+			 <img src= "images/icon-4.png" alt="">
+				<h3>breakfast and sweets</h3>
+				<p></p>
+			</div>
+		</div>
+	</section>
+	
+	<!--facility section ends-->
+	
+	
+	<!--menu section starts-->
+	
+	<section class="menu" id="menu">
+		<div class="heading">
+			<img src="images/heading-img.jpg" alt="">
+			<h3>popular menu </h3>
+		</div>
+		
+		<div class="box-container">
+			<div class="box">
+				<img src="images/espresso.jpg" alt="">
+				<h3>espresso</h3>
+			</div>
+			<div class="box">
+				<img src= "images/latte.jpg" alt="">
+				<h3>latte</h3>
+			</div>
+			<div class="box">
+				<img src= "images/cappuccino.jpg" alt="">
+				<h3>cappuccino</h3>
+			</div>
+			<div class="box">
+				<img src="images/mocha.png" alt="">
+				<h3>mocha</h3>
+			</div>
+			<div class="box">
+				<img src="images/iced americano.jpg" alt="">
+				<h3>iced americano</h3>
+			</div>
+			<div class="box">
+				<img src= "images/macchiato.jpg" alt="">
+				<h3>macchiato</h3>
+			</div>
+			<div class="box">
+				<img src="images/love you coffee.jpg" alt="">
+				<h3>love you coffee</h3>
+			</div>
+			<div class="box">
+				<img src="images/black coffee.jpg" alt="">
+				<h3>black coffee</h3>
+			</div>
+			<div class="box">
+				<img src="images/affogato.jpg" alt="">
+				<h3>affogato</h3>
+			</div>
+		</div>
+	</section>
+	
+	<!--menu section ends-->
+	
+	<!--gallery section starts-->
+	
+	<section class="gallery" id="gallery">
+		<div class="heading">
+			<img src="images/heading-img.jpg" alt="">
+			<h3>our gallery </h3>
+		</div>
+		<div class="box-container">
+			<img src= "images/gallery-1.jpg" alt="">
+			<img src= "images/gallery-2.jpg" alt="">
+			<img src= "images/gallery-3.jpg" alt="">
+			<img src= "images/gallery-4.jpeg" alt="">
+			<img src= "images/gallery-5.jpg" alt="">
+			<img src= "images/gallery-6.jpg" alt="">
+			<img src= "images/gallery-7.png" alt="">
+			<img src= "images/gallery-8.png" alt="">
+			<img src= "images/gallery-9.png" alt="">
+		</div>
+	</section>
+	
+	<!--contact section starts-->
+	
+	<section class="contact" id="contact">
+		<div class="heading">
+			<img src="images/heading-img.jpg" alt="">
+			<h3>contact us</h3>
+		</div>
+		<div class="row">
+			<div class="image">
+				<img src="images/contact-img.png" alt="">
+			</div>
+			<form action="" method="post">
+				<h3>book a table</h3>
+				<input type="text" name="name" required class="box" maxlength="20" placeholder="enter your name">
+				<input type="number" name="number" required class="box" maxlength="20" placeholder="enter your number" min="0" max="9999999999" onKeyPress="if(this.value.length == 10) return false">
+				<input type="number" name="guests" required class="box" maxlength="20" placeholder="how many guests" min="0" max="99" onKeyPress="if(this.value.length == 2) return false">
+				<input type="submit" name="send" value="send message" required class="btn">
+			</form>
+		</div>
+	</section>
+	
+	<!--contact section ends-->
+	
+	<!--footer section starts-->
+	
+	<section class="footer">
+		<div class="box-container">
+			<div class="box">
+				<i class="fas fa-envelope"></i>
+				<h3>our email</h3>
+				<p>coffeeexpress@gmail.com</p>
+			</div>
+			<div class="box">
+				<i class="fas fa-clock"></i>
+				<h3>opening hours</h3>
+				<p>07:00am to 09:00pm</p>
+			</div>
+			<div class="box">
+				<i class="fas fa-map-marker-alt"></i>
+				<h3>location</h3>
+				<p>colombo 3, sri lanka</p>
+			</div>
+			<div class="box">
+				<i class="fas fa-phone"></i>
+				<h3>our number</h3>
+			  <p>+11 245 8925</p>
+				<p>+11 100 8342</p>
+			</div>
+	 	</div>	
+		<div class="credit"> &copy; copyright @ 2022 by <span>web designer</span>|all rights reserved! </div>
+	</section>
+	<!--footer section ends-->
+	
+	<script src="script.js"></script>
+</body>
+</html>
